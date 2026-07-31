@@ -1,11 +1,3 @@
-"""Human review workflow (BR-12).
-
-A finding is Draft until a human moves it. Transitions are validated, recorded
-with the reviewer's note, and appended to the audit log. Nothing in the AI layer
-can change a status.
-"""
-from __future__ import annotations
-
 from dataclasses import dataclass
 from datetime import datetime, timezone
 

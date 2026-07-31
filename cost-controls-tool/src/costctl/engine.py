@@ -1,11 +1,3 @@
-"""Pipeline orchestration.
-
-Order matters and is fixed: ingest -> normalize -> deterministic rules ->
-validate -> summarize -> (optional) AI interpretation. The AI step is last and
-optional by design; removing it changes no figure in the output.
-"""
-from __future__ import annotations
-
 import hashlib
 import json
 from dataclasses import dataclass, field

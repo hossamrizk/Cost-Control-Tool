@@ -1,12 +1,3 @@
-"""Field normalization (BR-13).
-
-Cost-code aliases are resolved through the mapping table, never through
-guesswork or string similarity. An unmapped alias is an error, not something
-to infer: silently coercing GEN-5000 to 5000 without a mapping entry would
-break traceability the first time a genuinely new code appeared.
-"""
-from __future__ import annotations
-
 from dataclasses import dataclass
 from decimal import Decimal
 

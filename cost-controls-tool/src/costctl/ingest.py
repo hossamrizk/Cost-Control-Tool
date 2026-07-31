@@ -1,11 +1,3 @@
-"""Ingestion with provenance.
-
-Every row that enters the engine carries the file it came from and its 1-based
-row number, so that BR-11 (every finding cites a source file and reference) is
-satisfied by construction rather than by the LLM being asked nicely.
-"""
-from __future__ import annotations
-
 import csv
 import hashlib
 from dataclasses import dataclass

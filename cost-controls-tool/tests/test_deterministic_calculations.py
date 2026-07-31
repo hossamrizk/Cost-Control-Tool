@@ -1,8 +1,3 @@
-"""Golden-value tests for the definitions in the cost-control glossary.
-
-Expected values are derived by hand from the source reports, not from the
-engine, so a regression in the engine cannot quietly update its own baseline.
-"""
 from decimal import Decimal
 
 import pytest

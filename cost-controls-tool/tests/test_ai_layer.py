@@ -1,9 +1,3 @@
-"""BR-01: the model interprets, it does not calculate.
-
-These tests are the enforcement mechanism. The prompt asks the model not to do
-arithmetic; the guardrail makes it impossible for arithmetic that leaks through
-to reach a reader, and these tests prove the guardrail works.
-"""
 import json
 
 import pytest

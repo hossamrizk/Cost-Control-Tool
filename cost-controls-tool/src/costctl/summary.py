@@ -1,11 +1,3 @@
-"""Executive cost summary.
-
-Every figure here is computed from the model, never by summing findings, so
-that a finding cannot be double counted into the headline. The bridge walks the
-reported position to the adjusted position in a fixed, auditable order.
-"""
-from __future__ import annotations
-
 from dataclasses import dataclass, field
 from decimal import Decimal
 

@@ -1,19 +1,3 @@
-"""AI interpretation layer.
-
-Division of labour, and the reason this module is small:
-
-  the engine  decides *what* is wrong and by how much  (arithmetic)
-  this module decides *how to say it* and *what to do* (language)
-
-The model never sees raw source files and never performs arithmetic. It receives
-a finding whose figures are already computed and returns prose plus a proposed
-severity and confidence, which are recorded *alongside* the deterministic values
-rather than replacing them. A numeric guardrail then rejects any response that
-introduces a monetary figure the engine did not compute, which is the enforcement
-mechanism for BR-01.
-"""
-from __future__ import annotations
-
 import json
 import os
 import re

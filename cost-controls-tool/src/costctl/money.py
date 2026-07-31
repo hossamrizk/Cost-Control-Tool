@@ -1,12 +1,3 @@
-"""Money handling.
-
-All financial values are Decimal. Floats are never used for money anywhere in
-this codebase: 0.1 + 0.2 != 0.3 in binary floating point, and a cost-control
-tool that reports a $0.000001 variance is worse than useless. Decimal also
-makes the test suite exact rather than tolerance-based.
-"""
-from __future__ import annotations
-
 import re
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 

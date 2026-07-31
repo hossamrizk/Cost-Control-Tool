@@ -1,6 +1,3 @@
-"""Command line entry point: python -m costctl.cli analyse --ai gemini"""
-from __future__ import annotations
-
 import argparse
 import sys
 from pathlib import Path

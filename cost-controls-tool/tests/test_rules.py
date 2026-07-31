@@ -1,4 +1,3 @@
-"""One test per business rule, asserting the specific defect in the datasets."""
 from decimal import Decimal
 
 import pytest

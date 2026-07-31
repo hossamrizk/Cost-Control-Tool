@@ -1,12 +1,3 @@
-"""Append-only audit log.
-
-Auditability here means: for any figure on screen, you can reconstruct which
-input file produced it, which engine version computed it, which prompt version
-worded it, and who changed its status. The log is JSONL so it appends safely
-and never rewrites history.
-"""
-from __future__ import annotations
-
 import json
 import os
 from datetime import datetime, timezone

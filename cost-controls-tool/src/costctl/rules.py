@@ -1,13 +1,3 @@
-"""Deterministic rule engine (BR-01).
-
-Every finding in this module is produced by arithmetic on source data. No
-language model is invoked here, and none of these figures are ever recomputed
-downstream. Rules prefixed BR- come from the assessment's business-rule table;
-rules prefixed DR- are derived checks that the stated rules imply but do not
-name explicitly, and each carries a rationale in its description.
-"""
-from __future__ import annotations
-
 from dataclasses import dataclass
 from decimal import Decimal
 from typing import Callable, Iterable

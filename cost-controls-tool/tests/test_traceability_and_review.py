@@ -1,4 +1,3 @@
-"""BR-11 (source traceability) and BR-12 (human control of status)."""
 import json
 
 import pytest

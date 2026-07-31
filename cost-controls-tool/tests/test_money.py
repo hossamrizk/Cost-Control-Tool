@@ -1,4 +1,3 @@
-"""The money parser is the first place a cost tool can silently lose money."""
 from decimal import Decimal
 
 import pytest

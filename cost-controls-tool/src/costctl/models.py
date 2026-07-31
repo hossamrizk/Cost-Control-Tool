@@ -1,16 +1,3 @@
-"""Findings schema.
-
-The field list is fixed by the assessment's required output structure. Two
-fields go beyond it deliberately:
-
-  finding_type  - satisfies BR-14 by separating a confirmed arithmetic error
-                  from an item that merely requires explanation.
-  ai            - the AI interpretation block, kept structurally separate from
-                  the deterministic figures so that a reviewer can always see
-                  which numbers were computed and which words were generated.
-"""
-from __future__ import annotations
-
 import dataclasses
 from dataclasses import dataclass, field
 from decimal import Decimal
