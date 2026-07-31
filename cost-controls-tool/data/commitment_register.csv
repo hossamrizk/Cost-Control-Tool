@@ -1,0 +1,12 @@
+commitment_id,cost_code,package,vendor_contract,committed_amount,status,award_date
+C-001,1000,Site Development,GC Civil Package,"$22,000,000",Executed,03/15/2026
+C-002,2000,Structural & Building Shell,GC Structural Package,"$56,000,000",Executed,03/22/2026
+C-003,3000,Electrical Systems,Electrical Trade Contract,"$108,000,000",Executed,04/05/2026
+C-004,4000,Mechanical & Cooling,Mechanical Trade Contract,"$86,000,000",Executed,04/09/2026
+C-005,GEN-5000,Generation Equipment,Turbine Supply Agreement,"$67,000,000",Executed,04/18/2026
+C-006,6000,UPS & Battery Systems,UPS/Battery Purchase Order,"$47,000,000",Executed,05/01/2026
+C-007,7000,Controls & BMS,Controls Package,"$18,000,000",Executed,05/12/2026
+C-008,8000,Security Systems,Security Package,"$9,000,000",Executed,05/19/2026
+C-009,9000,Testing & Commissioning,Commissioning Services,"$12,000,000",Executed,06/01/2026
+C-010,10000,General Conditions,General Conditions Allowance,"$14,500,000",Executed,02/01/2026
+C-011,11000,Design & Engineering,A/E Services,"$9,500,000",Executed,01/12/2026

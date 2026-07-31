@@ -1,0 +1,10 @@
+change_id,cost_code,package,description,amount,status,date_identified,forecast_treatment,approval_reference
+CO-001,3000,Electrical Systems,Cable escalation,"$4,500,000",Approved,06/10/2026,Included,APR-3000-01
+CO-002,4000,Mechanical & Cooling,Additional cooling redundancy,"$6,000,000",Pending,07/08/2026,Included,
+CO-003,5000,Generation Equipment,Fuel system scope increase,"$3,500,000",Pending,07/15/2026,Not Included,
+CO-004,6000,UPS & Battery Systems,Additional battery capacity,"$3,000,000",Potential,07/18/2026,Included,
+CO-005,8000,Security Systems,Additional perimeter cameras,"$650,000",Pending,07/12/2026,Not Included,
+CO-005,8000,Security Systems,Additional perimeter cameras,"$650,000",Pending,07/12/2026,Not Included,
+CO-006,9000,Testing & Commissioning,Expanded integrated systems testing,"$1,200,000",Approved,07/02/2026,Included,APR-9000-02
+CO-007,10000,General Conditions,Schedule extension allowance,"$2,500,000",Potential,07/20/2026,Not Included,
+CO-008,7000,Controls & BMS,Additional integration points,"$900,000",Pending,07/22/2026,Not Included,

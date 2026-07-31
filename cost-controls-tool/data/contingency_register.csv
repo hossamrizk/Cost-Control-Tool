@@ -1,0 +1,6 @@
+transaction_id,category,transaction_type,increase,usage,reported_remaining_balance,status,date,approval_reference
+CT-001,Project Contingency,Opening Balance,"$20,000,000",$0,"$20,000,000",Approved,01/01/2026,Project authorization
+CT-002,Electrical escalation,Draw,$0,"$4,500,000","$15,500,000",Approved,06/10/2026,APR-3000-01
+CT-003,Commissioning expansion,Draw,$0,"$1,200,000","$14,300,000",Approved,07/02/2026,APR-9000-02
+CT-004,Mechanical design development,Draw,$0,"$2,000,000","$12,300,000",Pending,07/16/2026,
+CT-005,Temporary logistics support,Draw,$0,"$750,000","$11,550,000",Approved,07/21/2026,

@@ -1,0 +1,14 @@
+cost_code,package,current_budget,commitments,actual_cost,forecast_to_complete,reported_eac,reported_vac,management_commentary
+1000,Site Development,"$25,000,000","$22,000,000","$16,500,000","$7,500,000","$24,000,000","$1,000,000",Final grading and paving remain
+2000,Structural & Building Shell,"$60,000,000","$56,000,000","$40,000,000","$18,500,000","$58,500,000","$1,500,000",Steel package nearing completion
+3000,Electrical Systems,"$110,000,000","$108,000,000","$52,000,000","$65,500,000","$117,500,000","-$7,500,000",Accelerated procurement and cable escalation
+4000,Mechanical & Cooling,"$90,000,000","$86,000,000","$47,000,000","$44,000,000","$91,000,000","-$1,000,000",No material change this period
+5000,Generation Equipment,"$70,000,000","$67,000,000","$26,000,000","$42,000,000","$68,000,000","$2,000,000",Vendor fabrication progressing
+6000,UPS & Battery Systems,"$45,000,000","$47,000,000","$14,000,000","$34,000,000","$48,000,000","-$3,000,000",Additional battery capacity requested
+7000,Controls & BMS,"$20,000,000","$18,000,000","$8,000,000","$10,500,000","$19,250,000","$750,000",Integration scope developing
+8000,Security Systems,"$10,000,000","$9,000,000","$3,500,000","$6,000,000","$9,500,000","$500,000",Final device count pending
+9000,Testing & Commissioning,"$25,000,000","$12,000,000","$2,000,000","$21,500,000","$23,500,000","$1,500,000",Commissioning planning advanced
+10000,General Conditions,"$15,000,000","$14,500,000","$12,500,000","$1,000,000","$13,500,000","$1,500,000",Project staffing expected through completion
+11000,Design & Engineering,"$10,000,000","$9,500,000","$9,200,000","-$200,000","$9,000,000","$1,000,000",Design substantially complete
+12000,Owner Contingency,"$20,000,000",$0,$0,$0,$0,"$20,000,000",Held centrally
+TOTAL,PROJECT TOTAL,"$500,000,000","$449,000,000","$230,700,000","$250,300,000","$481,750,000","$18,250,000",
